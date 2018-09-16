@@ -1,7 +1,7 @@
 # twitter-poc
 Infinite scroll with sticky header using React
 
-### [Demo] ### [Demo](https://35.154.80.39:3001)&nbsp;&nbsp;&nbsp;&nbsp;[RealWorld](https://github.com/ismail3992/twitter-poc)
+[Demo](https://35.154.80.39:3001)&nbsp;&nbsp;&nbsp;&nbsp;[RealWorld](https://github.com/ismail3992/twitter-poc)
 
 To get the frontend running locally:
 
@@ -24,7 +24,7 @@ The example application is a social blogging single page - exercise. It uses a c
 
 
 ## TODO 
-   - Progress bar while page is loading
+   - Progress bar on Infinite scroll page loading 
    - Input search Bar
 
 
