@@ -1,4 +1,5 @@
 import React from 'react'
+import TweetCard from '../../atoms/Tweet/TweetCard';
 
 const Tweet = (props) =>{
   const hashtags = props.entities.hashtags.map(hashtag => <div>{hashtag.text}</div>)
@@ -10,13 +11,14 @@ const Tweet = (props) =>{
   if (mediaArray){
      medias = props.extended_entities.media.map(med => <img src= {med.media_url}/> )
   }
-  return(<div className="tweet">
+  return(
+  <TweetCard>
   <h5>{ name } {screenName}</h5> 
   <p>{ props.text }</p>
   <div>{hashtags }</div>
   <div>{medias}</div>
   <div>{urls}</div>
-</div>
+  </TweetCard>
 )
 
 } 

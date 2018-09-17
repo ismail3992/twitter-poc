@@ -1,11 +1,12 @@
 import React from 'react'
 import fetch from 'isomorphic-fetch'
 import Tweet from './tweet'
+// import TweetUl from '../../atoms/Tweet/TweetUl';
+// import TweetLI from '../../atoms/Tweet/TweetLI';
 
 class TweetList extends React.Component {
 
  
-
   constructor(props) {
     super(props);
     this.state = {
