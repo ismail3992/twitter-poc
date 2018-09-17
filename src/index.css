@@ -4,6 +4,7 @@ body {
   font-family: Helvetica;
   height: 100%;
   flex: none;
+  background: #e6ecf0;
 }
 
 .container {
@@ -21,15 +22,35 @@ body {
 
 .tweets {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  flex: none;
+    margin: 55px auto 0 auto;
+    padding: 0;
+    width: 600px;
+    
 
 }
-.tweet {
-  border: 1px solid #4fa5eb;
-  margin: 8px 0;
+.tweets li{
+  background: #fff;
+    margin: 0 0 10px 0;
+    box-shadow: 1px 3px 4px #dedede;
+}
+.tweets li .tweet {
   padding: 20px;
-  flex: none;
-  background-color: #f5f8fa;
+}
+
+img {
+  width: 100%;
+  max-width:100%;
+  border-radius: 5px;
+  margin: 10px 0 0 0;
+}
+p{
+  font-size: 14px;
+    color: #464646;
+}
+a{
+  color: #1DA1F2;
+}
+.active{
+  color: #1DA1F2 !important;
+  border-bottom: 2px solid #1DA1F2;
 }
