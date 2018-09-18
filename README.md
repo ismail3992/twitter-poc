@@ -1,7 +1,7 @@
 # twitter-poc
 Infinite scroll with sticky header using React
 
-[Demo](https://35.154.80.39:3001)&nbsp;&nbsp;&nbsp;&nbsp;[RealWorld](https://github.com/ismail3992/twitter-poc)
+[Demo](http://52.74.255.85:8000/)&nbsp;&nbsp;&nbsp;&nbsp;[RealWorld](https://github.com/ismail3992/twitter-poc)
 
 To get the frontend running locally:
 
