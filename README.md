@@ -25,9 +25,4 @@ The example application is a social blogging single page - exercise. It uses a c
 
 ## TODO 
    - Test cases 
-   - Storybook 
-   - Progress bar on Infinite scroll page loading 
-   - Input search Bar
-
-
-
+   - Storybook
